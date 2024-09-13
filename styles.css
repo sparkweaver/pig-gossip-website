@@ -1,0 +1,47 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-left: 45%;
+}
+
+nav {
+    background-color: pink;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0 50%;
+}
+
+a {
+    background-color: gray;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+main {
+    background-color: yellow;
+    padding: 0;
+}
+
+footer {
+    background-color: green;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    display: inline-block;
+}
