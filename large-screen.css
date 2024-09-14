@@ -1,4 +1,3 @@
-/**Screen size 414x896**/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -27,23 +26,31 @@ header h1 {
     left: 5.5rem;
 }
 
-nav p {
+ul {
+    list-style: none;
+}
+
+a {
     position: absolute;
     color: black;
     text-decoration: none;
+    width: 5rem;
     font-size: 1.5rem;
-    top: 4rem;
+    top: 5rem;
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    border-radius: 30px;
 }
 
-.first-interactive {
-    left: 5.5rem;
+.left-anchor {
+    left: 4.2rem;
 }
 
-.second-interactive {
-    left: 15.5rem;
+.right-anchor {
+    left: 14.2rem;
 }
 
-nav p:active {
+a:hover {
     color: royalblue;
 }
 
@@ -60,42 +67,39 @@ section {
     background-color: antiquewhite;
 }
 
-.first-section {
-    left: 1rem;
-    max-width: 90%;
-    height: 28rem;
+.left-section {
+    left: 2rem;
+    max-width: 70%;
+    height: 35rem;
 }
 
-.first-section h2 {
+.left-section h2 {
     position: absolute;
     left: 1rem;
 }
 
-.first-section p {
+.left-section p {
     position: absolute;
     left: 1rem;
-    bottom: 2.5rem;
+    bottom: 4rem;
     max-width: 90%;
 }
 
-.first-section img {
+.left-section img {
+    position: relative;
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
-.second-section {
+.right-section {
     position: absolute;
-    padding-left: 1rem;
-    bottom: 7rem;
-    left: 1rem;
-    width: 86%;
-    height: 10rem;
+    right: 2rem;
+    width: 20%;
+    height: 35rem;
 }
 
-.second-section img {
-    width: auto;
-    margin-bottom: 1rem;
-    height: 45%;
+.right-section h3 {
+    margin-left: 1.25rem;
 }
 
 footer {
@@ -104,7 +108,7 @@ footer {
     background-color: royalblue;
     border-top: 1px solid gray;
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     padding-left: 20rem;
     left: 0;
     bottom: 0;
@@ -114,14 +118,11 @@ footer h2 {
     position: absolute;
     margin: 0;
     bottom: 1.5rem;
-    left: 5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 footer p {
     position: absolute;
     margin: 0 5rem;
     bottom: 1.8rem;
-    left: 4rem;
-    font-size: 0.8rem;
 }
