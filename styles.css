@@ -1,8 +1,8 @@
-/**Screen size 414x896**/
+/* Styles for mobile-first (up to 600px) */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(229, 228, 228);
+    background-color: lightcoral;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -30,7 +30,6 @@ header h1 {
 nav p {
     position: absolute;
     color: black;
-    text-decoration: none;
     font-size: 1.5rem;
     top: 4rem;
 }
@@ -130,4 +129,117 @@ footer p {
     font-size: 0.8rem;
 }
 
-@media (min-width: ) and (max-width: )
+/* Styles for tablets (600px to 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-color: lightcyan;
+    }
+
+    header {
+        height: 5rem;
+    }
+
+    header h1 {
+        font-size: 2.25rem;
+        top: 1rem;
+        left: 2rem;
+    }
+
+    nav p {
+        top: 1.5rem;
+    }
+
+    .first-interactive {
+        left: 22rem;
+    }
+
+    .second-interactive {
+        left: 30rem;
+    }
+
+    .first-section {
+        left: 2.2rem;
+        height: 34rem;
+    }
+
+    .second-section {
+        bottom: 7rem;
+        left: 2.2rem;
+        width: 88%;
+        height: 13rem;
+    }
+
+    .second-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .second-section img {
+        height: 70%;
+    }
+
+    footer h2 {
+        left: 18rem;
+    }
+
+    footer p {
+        left: 17rem;
+    }
+}
+
+/* Styles for desktop above to 1024px */
+@media (min-width: 1025px) {
+    body {
+      background-color: lightgray;
+    }
+
+    header {
+        height: 5rem;
+    }
+
+    header h1 {
+        font-size: 2.25rem;
+        top: 1rem;
+        left: 2rem;
+    }
+
+    nav p {
+        top: 1.5rem;
+    }
+
+    .first-interactive {
+        left: 22rem;
+    }
+
+    .second-interactive {
+        left: 30rem;
+    }
+
+    .first-section {
+        left: 2.2rem;
+        height: 34rem;
+    }
+
+    .second-section {
+        bottom: 7rem;
+        left: 2.2rem;
+        width: 88%;
+        height: 13rem;
+    }
+
+    .second-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .second-section img {
+        height: 70%;
+    }
+
+    footer h2 {
+        left: 18rem;
+    }
+
+    footer p {
+        left: 17rem;
+    }
+  }
+  
