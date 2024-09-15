@@ -1,4 +1,4 @@
-/* Styles for mobile-first (up to 600px) */
+/* Styles for mobile-first up to 600px : 400 */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -65,14 +65,15 @@ section {
 }
 
 .first-section h2 {
-    position: absolute;
+    position: relative;
     left: 1rem;
+    max-width: 90%;
 }
 
 .first-section p {
-    position: absolute;
+    position: relative;
     left: 1rem;
-    bottom: 1.5rem;
+    bottom: 0;
     max-width: 90%;
 }
 
@@ -130,7 +131,7 @@ footer p {
     font-size: 0.8rem;
 }
 
-/* Styles for tablets (600px to 1024px) 800x1024 */
+/* Styles for tablets 600px to 1024px : 800x1024 */
 @media (min-width: 600px) and (max-width: 1024px) {
     body {
         background-color: lightcyan;
@@ -187,7 +188,7 @@ footer p {
     }
 }
 
-/* Styles for desktop above to 1024px I used 1280x1024*/
+/* Styles for desktop above 1024px : 1280x1024*/
 @media (min-width: 1025px) {
     body {
       background-color: lightgray;
@@ -233,7 +234,7 @@ footer p {
     }
 
     .first-section p {
-        bottom: 5rem;
+        bottom: -2rem;
         font-size: 1.4rem;
     }
 
