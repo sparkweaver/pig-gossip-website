@@ -27,11 +27,15 @@ header h1 {
     left: 5.5rem;
 }
 
-nav p {
+menu {
+    list-style-type: none;
+}
+
+menu li {
     position: absolute;
     color: black;
     font-size: 1.5rem;
-    top: 4rem;
+    top: 5rem;
 }
 
 .first-interactive {
@@ -42,7 +46,7 @@ nav p {
     left: 15.5rem;
 }
 
-nav p:active {
+menu li:active {
     color: royalblue;
 }
 
@@ -56,6 +60,17 @@ section {
     border-radius: 10px;
     border: 1px solid lightgray;
     background-color: antiquewhite;
+}
+
+.first-section figure {
+    width: 100%;
+    margin: 0;
+}
+
+.first-section figure figcaption {
+    position: relative;
+    left: 1rem;
+    font-size: 0.8rem;
 }
 
 .first-section {
@@ -92,14 +107,23 @@ section {
 }
 
 .second-section h3 {
+    position: relative;
     font-size: 1rem;
-    margin: 0.5rem;
+    left: 0;
+    top: -0.5rem;
 }
 
-.second-section img {
+.second-section figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: -3rem;
+    bottom: 1.3rem;
+}
+
+.second-section figure img {
     width: auto;
-    margin-bottom: 1rem;
-    height: 55%;
+    height: 70%;
     border-radius: 10px;
 }
 
@@ -147,8 +171,8 @@ footer p {
         left: 2rem;
     }
 
-    nav p {
-        top: 1.5rem;
+    menu li {
+        top: 3rem;
     }
 
     .first-interactive {
@@ -204,13 +228,14 @@ footer p {
         left: 3rem;
     }
 
-    nav p {
+    /** Hover and transition **/
+    menu li {
         font-size: 2rem;
-        top: 1.5rem;
+        top: 3rem;
         transition: color 1s ease-out;
     }
 
-    nav p:hover {
+    menu li:hover {
         color: royalblue;
         cursor: pointer;
     }
@@ -227,6 +252,10 @@ footer p {
         left: 3rem;
         width: 60%;
         height: 47rem;
+    }
+
+    .first-section figure figcaption {
+        font-size: 1rem;
     }
 
     .first-section h2 {
@@ -250,7 +279,12 @@ footer p {
         margin-left: 1.4rem;
     }
 
-    .second-section img {
+    .second-section figure {
+        left: -3.2rem;
+        width: 110%;
+    }
+
+    .second-section figure img {
         width: 80%;
         height: auto;
         margin-left: 1.5rem;
